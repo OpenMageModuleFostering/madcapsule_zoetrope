@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>MadCapsule_Zoetrope</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPLv2</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Zoetrope Engage Image Viewer</summary>
+    <description>Implement the Zoetrope Engage Image Viewer on your product pages to provide unprecedented product image detail and let your customers get a real feel for your product from all angles.</description>
+    <notes>First public release</notes>
+    <authors><author><name>James Mikkelson</name><user>madcapsulemedia</user><email>james@madcapsule.co.uk</email></author></authors>
+    <date>2014-07-12</date>
+    <time>15:11:09</time>
+    <contents><target name="magelocal"><dir name="MadCapsule"><dir name="Zoetrope"><dir name="Helper"><file name="Data.php" hash="c62a38a795009eaff145cbf2f0805e55"/></dir><dir name="Model"><file name="Observer.php" hash="5c648f7bc3aae0fd781e1d30459a9e89"/></dir><dir name="etc"><file name="config.xml" hash="02c042286fe9a7c04bed2d75996d27d4"/><file name="system.xml" hash="191163fdb77550c1d4f61289b246d071"/></dir><dir name="sql"><dir name="zoetrope_setup"><file name="mysql4-install-1.0.0.php" hash="196dacfcc9dc9b47a23054eeb8f47fec"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="MadCapsule_Zoetrope.xml" hash="35c184b8dde371feb9ddaa89647c46d9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="zoetrope.xml" hash="b51861c3e4c30b3c796ae1e971980e46"/></dir><dir name="template"><dir name="catalog"><dir name="product"><dir name="view"><file name="zoetrope.phtml" hash="b63d994da445d84a332737abd7ef1331"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
