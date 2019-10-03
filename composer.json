@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/MadCapsule_Zoetrope",
+    "name": "OpenMageModuleFostering\/MadCapsule_Zoetrope",
     "type": "magento-module",
     "license": "GPLv2",
     "homepage": "",
     "description": "Zoetrope Engage Image Viewer",
     "authors": [
-    {
-        "name": "James Mikkelson",
-        "email": "james@madcapsule.co.uk"
-    }
-],
+        {
+            "name": "James Mikkelson",
+            "email": "james@madcapsule.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
